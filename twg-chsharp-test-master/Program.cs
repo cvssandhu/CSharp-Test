@@ -27,7 +27,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(x => x.UseSqlServer(builder.
 builder.Services.AddHttpClient(name: "twg.azure-api.net", configureClient: client =>
 {
     client.BaseAddress = new Uri("https://twg.azure-api.net/");
-    client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "f5e949970c934d03965d49ebbc61a49a");
+    client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", builder.Configuration["SUB_KEY"]);
 
 });
 /***************C Sandhu Changes ends here*************/
