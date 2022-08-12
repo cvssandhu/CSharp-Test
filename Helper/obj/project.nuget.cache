@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xxNvMWAMnWRmnu1EFNfnDWuJ8AXS9jNnEJvSZy79nxLnqMgx5ea6dN/s5AQ6gmp99JkLyI2+e5KtMijpY+61yw==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\TwgUpload\\Helper\\Helper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\csandhu\\.nuget\\packages\\newtonsoft.json\\13.0.2-beta1\\newtonsoft.json.13.0.2-beta1.nupkg.sha512",
+    "C:\\Users\\csandhu\\.nuget\\packages\\nlog\\5.0.1\\nlog.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
