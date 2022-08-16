@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
 using CSharpTest.Model;
 using Entities;
-
+using AutoMapper;
 namespace CSharpTest.Controllers {
     [ApiController]
     [Route ("[controller]")]
@@ -21,9 +21,16 @@ namespace CSharpTest.Controllers {
         [Route ("Search"), HttpGet]
         public async Task<ActionResult> SearchAsync([FromQuery] SearchProductModel SearchProductModel) {
             _logger.LogInformation("getting products..");
-            var searchResults = await this._productService.SearchProducts(SearchProductModel.Branch, SearchProductModel.Search, SearchProductModel.Screen, SearchProductModel.StartAt, SearchProductModel.Limit);            
+                     
+            var searchResults = await this._productService.SearchProducts(GetConvertedDTOObject(SearchProductModel));            
             return new OkObjectResult (searchResults);
         }
+        private SearchProductRequestDTO GetConvertedDTOObject(SearchProductModel searchProductModel)
+        {
+            var mapper =new MapperConfiguration(cfg => cfg.CreateMap<SearchProductModel, SearchProductRequestDTO>());
+            return new Mapper(mapper).Map<SearchProductModel, SearchProductRequestDTO>(searchProductModel);
+        }
+
 
     }
 }

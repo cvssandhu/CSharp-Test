@@ -26,15 +26,19 @@ namespace Services
             
         }
 
-        public async Task<Root> SearchProducts(string Branch, string Search, string Screen, string StartAt, string Limit)
+        public async Task<Root> SearchProducts(SearchProductRequestDTO searchProductRequestDTO)
         {
 
-            var searchResults =  await SearchProductsAsync(Branch, Search, Screen, StartAt, Limit);
+            var searchResults =  await SearchProductsAsync(searchProductRequestDTO.Branch,
+                searchProductRequestDTO.Search,
+                searchProductRequestDTO.Screen,
+                searchProductRequestDTO.StartAt,
+                searchProductRequestDTO.Limit);
             if (searchResults != null)
             {
                 //lstProducts.Results.for(o => o.Products.ToList().Take(3));
                 //List<Result>? result = searchResults.Results.Take(3).ToList();
-                LogRequestResponse(Search, searchResults);
+                LogRequestResponse(searchProductRequestDTO.Search, searchResults);
                // LogRequestResponse(Search, searchResults);
                 //SaveProducts(result[0].Products.Take(3).ToList());
             }
