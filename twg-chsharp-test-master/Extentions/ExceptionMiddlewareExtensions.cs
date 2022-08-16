@@ -7,10 +7,10 @@ namespace CSharpTest.Extentions
 {
     public static class ExceptionMiddlewareExtensions
     {
-        //public static void ConfigureCustomExceptionMiddleware(this WebApplication app)
-        //{
-        //    app.UseMiddleware<ExceptionMiddleware>();
-        //}
+        public static void ConfigureCustomExceptionMiddleware(this WebApplication app)
+        {
+            app.UseMiddleware<ExceptionMiddleware>();
+        }
         public static void ConfigureExceptionHandler(this IApplicationBuilder app, ILogger logger)
         {
             app.UseExceptionHandler(appError =>
@@ -22,7 +22,7 @@ namespace CSharpTest.Extentions
                     var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
                     if (contextFeature != null)
                     {
-                        //logger.LogError($"Something went wrong: {contextFeature.Error}");
+                        logger.LogError($"Something went wrong: {contextFeature.Error}");
                         await context.Response.WriteAsync(new ErrorDetails()
                         {
                             StatusCode = context.Response.StatusCode,

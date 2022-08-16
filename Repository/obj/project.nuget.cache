@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v56XHeilxL2529zDAAE9I2mEX6HwIgXZdh7hTkPqkYSeiLdUjAkprVi0YrmwJXcbBWhaX6LZ+Vt9A4F5VBWFvQ==",
+  "dgSpecHash": "dqT6StdtVhTOuqUgBH0cOgUfTc3mMeNhOosOYK12JxbsaRMSU2l+qExb79HfKS/N/Wi+fenXD5rG8iEFrrOIcA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\TwgUpload\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\Projects\\twg\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\csandhu\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\csandhu\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

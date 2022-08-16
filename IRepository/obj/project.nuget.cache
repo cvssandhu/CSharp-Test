@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+u2ULlHlWvIIEFb7l0XgJ0ygSayOt4fa77sDvnmkTQbONdJMtfxmpAVRIx84LZTJeBjl1WeuBmSqJQmvV204iw==",
+  "dgSpecHash": "E79GMKm7AnyVWU7SXUX0JJs3VZ3SsHJ16vUiW4H65DcgqLdKg/quLYKtpkWj7AXu+OZSySA9VgxeZ6i7OUykKA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\TwgUpload\\IRepository\\IRepository.csproj",
+  "projectFilePath": "C:\\Projects\\twg\\IRepository\\IRepository.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

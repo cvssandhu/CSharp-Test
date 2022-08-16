@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pjuaRQpw1+4rzeRrfeCOh7OuPXhe6JL1ynngIjROGmagXiS66ViN/+zv5Di03YU+J1Cq5I0bzqnX69lEoMyQZw==",
+  "dgSpecHash": "xENgya5dcL2pwecCTmSWUX8ojNbqk3ED88pln8o3yWqH5lvXRLaXpD2TUlB8ucZ61QY6BHiqoKodQwyKQp0f6w==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\TwgUpload\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Projects\\twg\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\csandhu\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\csandhu\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

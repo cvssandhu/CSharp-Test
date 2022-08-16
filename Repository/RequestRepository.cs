@@ -57,7 +57,7 @@ namespace Repository
             
             int returnResult = await DataAccess.SqlHelper.ExecuteNonQueryAsync(_commonRespository.GetConnectionstring(), commandText,sp);
 
-            request.Rid = returnResult >= 1 ? Convert.ToDateTime(request.Timestamp).Ticks: returnResult;
+            request.Rid = returnResult >0 ? returnResult : Convert.ToDateTime(request.Timestamp).Ticks;
                 
             return request;
         }

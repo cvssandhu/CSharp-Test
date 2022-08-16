@@ -22,3 +22,15 @@ C:\Projects\TwgUpload\DataAccess\obj\Debug\net6.0\DataAccess.dll
 C:\Projects\TwgUpload\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
 C:\Projects\TwgUpload\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 C:\Projects\TwgUpload\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Projects\twg\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Projects\twg\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Projects\twg\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Projects\twg\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Projects\twg\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\twg\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Projects\twg\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Projects\twg\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Projects\twg\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Projects\twg\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Projects\twg\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Projects\twg\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

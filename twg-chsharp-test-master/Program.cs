@@ -5,15 +5,25 @@ using Repository;
 using Services;
 using Microsoft.EntityFrameworkCore;
 using CSharpTest.Extentions;
+using NLog;
+using NLog.Web;
+
+var logger = NLogBuilder.ConfigureNLog("NLog.Config").GetCurrentClassLogger();
+//var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+logger.Debug("Init main");
+
 
 var builder = WebApplication.CreateBuilder(args);
 
-/******C Sandhu Changes ************/
 
+/******C Sandhu Changes ************/
+builder.Logging.ClearProviders();
+builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+builder.Host.UseNLog();
 // Add services to the container.
 
 builder.Services.AddScoped<ICommonRepository, CommonRepository>();
-
+builder.Services.AddSingleton<Microsoft.Extensions.Logging.ILogger>(svc => svc.GetRequiredService<ILogger<ProductService>>());
 builder.Services.AddSingleton<IUserService, UserService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IBillingService, BillingService>();
@@ -38,10 +48,10 @@ builder.Services.AddControllers();
 var app = builder.Build();
 
 
-
+//app.UseSession();
 //var logger = app.Services.GetRequiredService<ILogger>();
 //app.ConfigureExceptionHandler(logger);
-
+app.ConfigureCustomExceptionMiddleware();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment ()) {
     app.UseExceptionHandler ("/Error");

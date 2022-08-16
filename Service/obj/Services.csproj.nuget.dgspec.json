@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\TwgUpload\\Service\\Services.csproj": {}
+    "C:\\Projects\\twg\\Service\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\TwgUpload\\DataAccess\\DataAccess.csproj": {
+    "C:\\Projects\\twg\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\TwgUpload\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Projects\\twg\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Projects\\TwgUpload\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Projects\\twg\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\csandhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\TwgUpload\\DataAccess\\obj\\",
+        "outputPath": "C:\\Projects\\twg\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csandhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,18 +64,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj": {
+    "C:\\Projects\\twg\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Projects\\twg\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Projects\\twg\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\csandhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\TwgUpload\\Entities\\obj\\",
+        "outputPath": "C:\\Projects\\twg\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csandhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -118,18 +118,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\TwgUpload\\IRepository\\IRepository.csproj": {
+    "C:\\Projects\\twg\\IRepository\\IRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\TwgUpload\\IRepository\\IRepository.csproj",
+        "projectUniqueName": "C:\\Projects\\twg\\IRepository\\IRepository.csproj",
         "projectName": "IRepository",
-        "projectPath": "C:\\Projects\\TwgUpload\\IRepository\\IRepository.csproj",
+        "projectPath": "C:\\Projects\\twg\\IRepository\\IRepository.csproj",
         "packagesPath": "C:\\Users\\csandhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\TwgUpload\\IRepository\\obj\\",
+        "outputPath": "C:\\Projects\\twg\\IRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csandhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,8 +146,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj"
+              "C:\\Projects\\twg\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Projects\\twg\\Entities\\Entities.csproj"
               }
             }
           }
@@ -176,18 +176,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\TwgUpload\\Repository\\Repository.csproj": {
+    "C:\\Projects\\twg\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\TwgUpload\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Projects\\twg\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Projects\\TwgUpload\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Projects\\twg\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\csandhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\TwgUpload\\Repository\\obj\\",
+        "outputPath": "C:\\Projects\\twg\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csandhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -204,14 +204,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\TwgUpload\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Projects\\TwgUpload\\DataAccess\\DataAccess.csproj"
+              "C:\\Projects\\twg\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Projects\\twg\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj"
+              "C:\\Projects\\twg\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Projects\\twg\\Entities\\Entities.csproj"
               },
-              "C:\\Projects\\TwgUpload\\IRepository\\IRepository.csproj": {
-                "projectPath": "C:\\Projects\\TwgUpload\\IRepository\\IRepository.csproj"
+              "C:\\Projects\\twg\\IRepository\\IRepository.csproj": {
+                "projectPath": "C:\\Projects\\twg\\IRepository\\IRepository.csproj"
               }
             }
           }
@@ -268,18 +268,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\TwgUpload\\ServiceContracts\\ServiceContracts.csproj": {
+    "C:\\Projects\\twg\\ServiceContracts\\ServiceContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\TwgUpload\\ServiceContracts\\ServiceContracts.csproj",
+        "projectUniqueName": "C:\\Projects\\twg\\ServiceContracts\\ServiceContracts.csproj",
         "projectName": "ServiceContracts",
-        "projectPath": "C:\\Projects\\TwgUpload\\ServiceContracts\\ServiceContracts.csproj",
+        "projectPath": "C:\\Projects\\twg\\ServiceContracts\\ServiceContracts.csproj",
         "packagesPath": "C:\\Users\\csandhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\TwgUpload\\ServiceContracts\\obj\\",
+        "outputPath": "C:\\Projects\\twg\\ServiceContracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csandhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -296,8 +296,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj"
+              "C:\\Projects\\twg\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Projects\\twg\\Entities\\Entities.csproj"
               }
             }
           }
@@ -326,18 +326,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\TwgUpload\\Service\\Services.csproj": {
+    "C:\\Projects\\twg\\Service\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\TwgUpload\\Service\\Services.csproj",
+        "projectUniqueName": "C:\\Projects\\twg\\Service\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Projects\\TwgUpload\\Service\\Services.csproj",
+        "projectPath": "C:\\Projects\\twg\\Service\\Services.csproj",
         "packagesPath": "C:\\Users\\csandhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\TwgUpload\\Service\\obj\\",
+        "outputPath": "C:\\Projects\\twg\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csandhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -354,14 +354,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj"
+              "C:\\Projects\\twg\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Projects\\twg\\Entities\\Entities.csproj"
               },
-              "C:\\Projects\\TwgUpload\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Projects\\TwgUpload\\Repository\\Repository.csproj"
+              "C:\\Projects\\twg\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Projects\\twg\\Repository\\Repository.csproj"
               },
-              "C:\\Projects\\TwgUpload\\ServiceContracts\\ServiceContracts.csproj": {
-                "projectPath": "C:\\Projects\\TwgUpload\\ServiceContracts\\ServiceContracts.csproj"
+              "C:\\Projects\\twg\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "C:\\Projects\\twg\\ServiceContracts\\ServiceContracts.csproj"
               }
             }
           }
@@ -396,7 +396,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

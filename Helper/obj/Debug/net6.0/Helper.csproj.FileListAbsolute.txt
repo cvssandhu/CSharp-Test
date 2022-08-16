@@ -22,3 +22,15 @@ C:\Projects\TwgUpload\Helper\obj\Debug\net6.0\Helper.dll
 C:\Projects\TwgUpload\Helper\obj\Debug\net6.0\refint\Helper.dll
 C:\Projects\TwgUpload\Helper\obj\Debug\net6.0\Helper.pdb
 C:\Projects\TwgUpload\Helper\obj\Debug\net6.0\ref\Helper.dll
+C:\Projects\twg\Helper\bin\Debug\net6.0\Helper.deps.json
+C:\Projects\twg\Helper\bin\Debug\net6.0\Helper.dll
+C:\Projects\twg\Helper\bin\Debug\net6.0\Helper.pdb
+C:\Projects\twg\Helper\obj\Debug\net6.0\Helper.csproj.AssemblyReference.cache
+C:\Projects\twg\Helper\obj\Debug\net6.0\Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\twg\Helper\obj\Debug\net6.0\Helper.AssemblyInfoInputs.cache
+C:\Projects\twg\Helper\obj\Debug\net6.0\Helper.AssemblyInfo.cs
+C:\Projects\twg\Helper\obj\Debug\net6.0\Helper.csproj.CoreCompileInputs.cache
+C:\Projects\twg\Helper\obj\Debug\net6.0\Helper.dll
+C:\Projects\twg\Helper\obj\Debug\net6.0\refint\Helper.dll
+C:\Projects\twg\Helper\obj\Debug\net6.0\Helper.pdb
+C:\Projects\twg\Helper\obj\Debug\net6.0\ref\Helper.dll

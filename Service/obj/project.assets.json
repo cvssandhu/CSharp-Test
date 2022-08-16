@@ -3341,11 +3341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\TwgUpload\\Service\\Services.csproj",
+      "projectUniqueName": "C:\\Projects\\twg\\Service\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Projects\\TwgUpload\\Service\\Services.csproj",
+      "projectPath": "C:\\Projects\\twg\\Service\\Services.csproj",
       "packagesPath": "C:\\Users\\csandhu\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\TwgUpload\\Service\\obj\\",
+      "outputPath": "C:\\Projects\\twg\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\csandhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3362,14 +3362,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj"
+            "C:\\Projects\\twg\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Projects\\twg\\Entities\\Entities.csproj"
             },
-            "C:\\Projects\\TwgUpload\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Projects\\TwgUpload\\Repository\\Repository.csproj"
+            "C:\\Projects\\twg\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Projects\\twg\\Repository\\Repository.csproj"
             },
-            "C:\\Projects\\TwgUpload\\ServiceContracts\\ServiceContracts.csproj": {
-              "projectPath": "C:\\Projects\\TwgUpload\\ServiceContracts\\ServiceContracts.csproj"
+            "C:\\Projects\\twg\\ServiceContracts\\ServiceContracts.csproj": {
+              "projectPath": "C:\\Projects\\twg\\ServiceContracts\\ServiceContracts.csproj"
             }
           }
         }
@@ -3404,7 +3404,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

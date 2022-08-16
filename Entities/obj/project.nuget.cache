@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9ZIqOn1dAmQiI8EuEUWVcWSnuu9h4jnxaYyKoZFqBZDahpRogMsCMkiq8JXf2GQCjLz0JaO+dkgTarWjBRaA0w==",
+  "dgSpecHash": "OOKpnegwNVK4GPxqW4q4/uIRdiuHCyDmSMWA4vcetgvSyDvg93S+6MzSl/tlZJ8yINulutt1VPMnkvZPn0hyrA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\TwgUpload\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Projects\\twg\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
