@@ -14,7 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<ICommonRepository, CommonRepository>();
 
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddSingleton<IUserService, UserService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IBillingService, BillingService>();
 
@@ -33,6 +33,7 @@ builder.Services.AddHttpClient(name: "twg.azure-api.net", configureClient: clien
 /***************C Sandhu Changes ends here*************/
 
 builder.Services.AddControllers();
+
 
 var app = builder.Build();
 
